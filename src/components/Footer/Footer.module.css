@@ -1,0 +1,22 @@
+.container {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.text a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.text a:hover {
+    color: #4A30F2;
+}

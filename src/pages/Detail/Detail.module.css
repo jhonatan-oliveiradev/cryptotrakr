@@ -1,0 +1,111 @@
+.container {
+  padding: 0 14px;
+  height: 80vh;
+}
+
+.container p.center {
+  color: #4A30F2;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.content {
+  max-width: 420px;
+  background-color: #0f0f0f;
+  margin: 24px auto;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.content p {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content p:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+.profit {
+  color: #3BBF8F;
+}
+
+.loss {
+   color: #D96055;
+}
+
+/*back button styles */
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: #4A30F2;
+}
+
+/* plus sign */
+.backBtn {
+  width: 100%;
+  transition-duration: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backBtn svg {
+  margin-bottom: 5px;
+}
+
+/* text */
+.btnText {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}
+/* hover effect on button width */
+.btn:hover {
+  width: 125px;
+  border-radius: 40px;
+  transition-duration: 0.3s;
+}
+
+.btn:hover .backBtn {
+  width: 30%;
+  transition-duration: 0.3s;
+  padding-left: 10px;
+}
+/* hover effect button's text */
+.btn:hover .btnText {
+  opacity: 1;
+  width: 70%;
+  transition-duration: 0.3s;
+  padding-right: 8px;
+}
+/* button click effect*/
+.btn:active {
+  transform: translate(2px, 2px);
+}
+
