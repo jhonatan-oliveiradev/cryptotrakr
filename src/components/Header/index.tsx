@@ -8,7 +8,7 @@ export function Header() {
     <header className={styles.container}>
       <div className={styles.logo}>
         <Link to="/">
-          <img src={logoImg} alt="Logotipo DevCurrency" />
+          <img src={logoImg} alt="Logotipo CryptoTrakr" />
         </Link>
       </div>
     </header>
